@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="3" name="pytest" skips="0" tests="4" time="0.432"><testcase classname="pytests.test_index" file="pytests/test_index.py" line="12" name="test_conda_environment_activated" time="0.0016367435455322266"></testcase><testcase classname="pytests.test_index" file="pytests/test_index.py" line="15" name="test_travel_month" time="0.00211334228515625"><failure message="AssertionError: Remember to reassign the travel_month variable
+assert None is not None">def test_travel_month():
+&gt;       assert travel_month is not None, &quot;Remember to reassign the travel_month variable&quot;
+E       AssertionError: Remember to reassign the travel_month variable
+E       assert None is not None
+
+pytests/test_index.py:17: AssertionError</failure></testcase><testcase classname="pytests.test_index" file="pytests/test_index.py" line="19" name="test_number_of_weeks" time="0.0008716583251953125"><failure message="AssertionError: Remember to reassign the num_of_weeks variable
+assert None is not None">def test_number_of_weeks():
+&gt;       assert number_of_weeks is not None, &quot;Remember to reassign the num_of_weeks variable&quot;
+E       AssertionError: Remember to reassign the num_of_weeks variable
+E       assert None is not None
+
+pytests/test_index.py:21: AssertionError</failure></testcase><testcase classname="pytests.test_index" file="pytests/test_index.py" line="23" name="test_travelling_schedule" time="0.0008730888366699219"><failure message="AssertionError: Remember to reassign the travel_month variable
+assert None is not None">def test_travelling_schedule():
+&gt;       assert travelling_schedule is not None, &quot;Remember to reassign the travel_month variable&quot;
+E       AssertionError: Remember to reassign the travel_month variable
+E       assert None is not None
+
+pytests/test_index.py:25: AssertionError</failure></testcase></testsuite>
